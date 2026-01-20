@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Technik Programista – Technikum nr 1 w Gorlicach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.7em;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+}
+
+nav a {
+    color: #00f2ff;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+    backdrop-filter: blur(8px);
+}
+
+h2 {
+    color: #00f2ff;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #00f2ff, #38ef7d);
+    color: #000;
+    padding: 14px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.9em;
+}
+
+.highlight {
+    color: #38ef7d;
+    font-weight: bold;
+}
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+a:hover{
+    color:#764ba2;
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Technik Programista</h1>
+    <p>Technikum nr 1 w Gorlicach • ul. Wyszyńskiego 18</p>
+</header>
+
+<nav>
+    <a href="#o-profilu">O profilu</a>
+    <a href="#czego-uczymy">Czego uczymy</a>
+    <a href="#dlaczego">Dlaczego warto</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="o-profilu">
+    <div class="box">
+        <h2>O profilu Technik Programista</h2>
+        <p>
+            Profil <span class="highlight">Technik Programista</span> w Technikum nr 1 w Gorlicach
+            to nowoczesny kierunek kształcenia dla uczniów zainteresowanych
+            informatyką, programowaniem i nowymi technologiami.
+        </p>
+        <p>
+            Nauka łączy wiedzę teoretyczną z dużą ilością zajęć praktycznych,
+            przygotowując uczniów do pracy w branży IT lub dalszej nauki na studiach.
+        </p>
+    </div>
+</section>
+
+<section id="czego-uczymy">
+    <div class="box">
+        <h2>Czego uczymy?</h2>
+        <ul>
+            <li>Programowania aplikacji desktopowych i webowych</li>
+            <li>Języków programowania: <b>Python, C++, JavaScript</b></li>
+            <li>Tworzenia stron internetowych (HTML, CSS, JS)</li>
+            <li>Obsługi baz danych (SQL)</li>
+            <li>Algorytmiki i logiki programowania</li>
+            <li>Pracy zespołowej i projektowej</li>
+        </ul>
+    </div>
+</section>
+
+<section id="dlaczego">
+    <div class="box">
+        <h2>Dlaczego warto wybrać ten kierunek?</h2>
+        <ul>
+            <li>Duże zapotrzebowanie na programistów na rynku pracy</li>
+            <li>Nowoczesne pracownie komputerowe</li>
+            <li>Praktyki zawodowe</li>
+            <li>Możliwość uzyskania tytułu <b>technika programisty</b></li>
+            <li>Dobre przygotowanie do matury i studiów</li>
+        </ul>
+
+        <button class="btn" onclick="showMessage() "><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Sprawdź swoją przyszłość</a></button>
+        <p id="message">Programowanie to zawód przyszłości – zacznij ją w Technikum nr 1 w Gorlicach!</p>
+    </div>
+</section>
+
+<section id="kontakt">
+    <div class="box">
+        <h2>Kontakt</h2>
+        <p>
+            <b>Technikum nr 1 w Gorlicach</b><br>
+            ul. Wyszyńskiego 18<br>
+            38-300 Gorlice
+        </p>
+        <p>
+            Zainteresowany? Dołącz do świata programowania już dziś!
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Technik Programista – Technikum nr 1 w Gorlicach</p>
+</footer>
+
+<script>
+    function showMessage() {
+    const message = document.getElementById("message");
+
+    if (message.style.display === "block" || message.style.display === "") {
+        message.style.display = "none";
+    } else {
+        message.style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>

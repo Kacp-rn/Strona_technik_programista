@@ -1,1 +1,1 @@
-Prosze o 6.
+Proszę o 6.
